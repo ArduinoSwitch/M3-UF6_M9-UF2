@@ -1,6 +1,8 @@
 package com.example.m3_uf6_m9_uf2.models;
 
-public class UserModel {
+import java.io.Serializable;
+
+public class UserModel implements Serializable {
     private int id;
     private String name;
     private String birthday;

@@ -13,8 +13,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 public class FetchUsers extends Thread {
-    public String name;
-    public String date;
     public MutableLiveData<ArrayList<UserModel>> userList = new MutableLiveData<>();
     private ArrayList<UserModel> users = new ArrayList<>();
 
